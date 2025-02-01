@@ -21,7 +21,7 @@ public class BackpackController {
         }
 
         List<BackpackModel> filledBackpack = backpackService.fillBackpack(bagSize);
-        System.out.print(filledBackpack);
+        System.out.println(filledBackpack);
         return ResponseEntity.ok(filledBackpack);
     }
 
