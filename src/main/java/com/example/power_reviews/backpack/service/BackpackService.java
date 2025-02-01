@@ -53,36 +53,6 @@ public class BackpackService {
         }
 
         return backpack;
-
-        /**
-         * 1. Subtract 11 from bag size - one for each item
-             * “Bag of Apples”, 5
-             * “Bread”, 1
-             * “Peanut Butter", 2
-             * “Trail Mix", 3
-         *
-         * 2. Increment the count for each of these items by 1
-         *
-         * 3. Divide the remaining bag size by the largest item (5 - bag of items)
-         * 3a If the largest item can't fit, try the next largest item
-         *
-         *
-         * 4. Use the remainder and then divide by the next largest.
-         *
-         */
-
-
-        // Creating a sample BackpackModel object
-        //        BackpackModel backpack = new BackpackModel();
-        //        backpack.setItem("Laptop");
-        //        backpack.setCount(1);
-
-//        return Arrays.asList(
-//                new BackpackModel("Bag of Apples", 4),
-//                new BackpackModel("Trail Mix", 1),
-//                new BackpackModel("Peanut Butter", 1),
-//                new BackpackModel("Bread", 2)
-//        );
     }
 
 }
